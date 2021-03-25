@@ -9,6 +9,7 @@ public class KubeController {
 	
 	@GetMapping("/kubeMessage")
 	public String publishMessage() {
+		System.out.println("kubeworld callelled");
 	return "Hello kubeworld";
 	}
 }

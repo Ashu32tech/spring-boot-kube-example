@@ -3,7 +3,7 @@
 *-----spanner-poller-converter-publisher pushing in gcp cloud-platform---------*
 ================================================================================
 
-git clone https://github.com/Ashu32tech/spanner-poller-converter-publisher.git
+git clone https://github.com/Ashu32tech/spring-boot-kube-example.git
 cd spanner-poller-converter-publisher/
 mvn clean compile package
 docker build . -t gcr.io/silver-approach-307010/spanner-poller-converter-publisher
